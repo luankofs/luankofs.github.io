@@ -99,7 +99,7 @@ $(document).ready(function () {
         $(".header-links").css("background-color", "transparent");
       } else if (index != 1) {
         $(".header-links a").each(function () {
-          $(this).css("color", "#fff");
+          $(this).css("color", "white");
         });
         $(".header-links").css("background-color", "#000");
       }

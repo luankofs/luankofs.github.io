@@ -99,9 +99,9 @@ $(document).ready(function () {
         $(".header-links").css("background-color", "transparent");
       } else if (index != 1) {
         $(".header-links a").each(function () {
-          $(this).css("color", "black");
+          $(this).css("color", "#fff");
         });
-        $(".header-links").css("background-color", "white");
+        $(".header-links").css("background-color", "#000");
       }
 
       //using index

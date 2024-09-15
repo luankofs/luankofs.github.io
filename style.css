@@ -392,6 +392,17 @@ p {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.soft-skills-container {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.soft-skills {
+  max-height: 80px;
+}
+
 /* portfolio section */
 
 .content {
@@ -654,7 +665,8 @@ label {
   animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
+
+@keyframes blink {
   from,
   to {
     color: transparent;
@@ -663,6 +675,7 @@ label {
     color: white;
   }
 }
+
 
 @-moz-keyframes blink {
   from,
@@ -674,7 +687,8 @@ label {
   }
 }
 
-@-webkit-keyframes "blink" {
+
+@-webkit-keyframes blink {
   from,
   to {
     color: transparent;
@@ -684,7 +698,8 @@ label {
   }
 }
 
-@-ms-keyframes "blink" {
+
+@-ms-keyframes blink {
   from,
   to {
     color: transparent;
@@ -694,7 +709,7 @@ label {
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from,
   to {
     color: transparent;
@@ -703,6 +718,12 @@ label {
     color: white;
   }
 }
+
+
+.blinking-text {
+  animation: blink 1s infinite; /* Nome da animação, duração, repetição infinita */
+}
+
 
 .success {
   padding: 1em;
